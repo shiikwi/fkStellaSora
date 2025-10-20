@@ -1,0 +1,1 @@
+Thanks to [decrypt_arcx.py](https://github.com/1F1E33-float32/Tools/blob/main/OnlineGame/Unity/StellaSora/decrypt_arcx.py)
