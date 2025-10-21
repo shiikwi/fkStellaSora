@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaDataParser", "MetaDataP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchiveParser", "ArchiveParser\ArchiveParser.csproj", "{169D86E0-E0C6-4524-9CB9-C24861DBCFE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinConvert", "DataBinConvert\DataBinConvert.csproj", "{63E784AD-63AF-44A0-8539-9F011AE4CFDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{169D86E0-E0C6-4524-9CB9-C24861DBCFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{169D86E0-E0C6-4524-9CB9-C24861DBCFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{169D86E0-E0C6-4524-9CB9-C24861DBCFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E784AD-63AF-44A0-8539-9F011AE4CFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E784AD-63AF-44A0-8539-9F011AE4CFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E784AD-63AF-44A0-8539-9F011AE4CFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E784AD-63AF-44A0-8539-9F011AE4CFDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,35 @@
+// achievement.proto
+
+syntax = "proto3";
+
+package StellaSoraParser.Proto;
+
+message Achievement {
+  int32 Id = 1;
+  int32 AchieveId = 2;
+  string Title = 3;
+  string Desc = 4;
+  int32 Rarity = 5;
+  int32 Type = 6;
+  bool Hide = 7;
+  int32 JumpTo = 8;
+  int32 CompleteCond = 9;
+  int32 CompleteCondClient = 10;
+  int32 AimNumShow = 11;
+  repeated int32 Prerequisites = 12;
+  repeated int32 LevelType = 13;
+  
+  repeated int32 ClientCompleteParams1 = 14; 
+  repeated int32 ClientCompleteParams2 = 15;
+  
+  int32 Tid1 = 16;
+  int32 Qty1 = 17;
+  int32 Tid2 = 18;
+  int32 Qty2 = 19;
+  int32 Tid3 = 20;
+  int32 Qty3 = 21;
+}
+
+message table_Achievement {
+    repeated Achievement List = 1;
+}
