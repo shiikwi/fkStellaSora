@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package StellaSoraParser.Proto;
+
+message ActivityAvgLevel {
+  int32 Id = 1;
+  int32 ActivityId = 2;
+  int32 PersonalityId = 3;
+  int32 DayOpen = 4;
+  string Index = 5;
+  string Name = 6;
+  string IconRes = 7;
+  int32 Type = 8;
+  int32 PreLevelId = 9;
+  string StoryId = 10;
+  string Desc = 11;
+  string FirstCompleteRewardPreview = 12;
+
+}
+
+message table_ActivityAvgLevel {
+    repeated ActivityAvgLevel List = 1;
+}

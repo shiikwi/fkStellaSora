@@ -14,8 +14,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        string inputFile = "86_CB413F24986EF082.bin";
-        string ProtoTypeName = "StellaSoraParser.Proto.DatingCharacterEvent";
+        string inputFile = "355_5DEAD2A6189B75C6.bin";
+        string ProtoTypeName = "StellaSoraParser.Proto.VampireTalent";
 
         string outputFile = ProtoTypeName + ".json";
         try
@@ -56,7 +56,7 @@ public class Program
             }
         }
 
-        var converter = new GameDataController();
+        var converter = new GameController();
         Dictionary<object, byte[]> rawRecords = converter.LoadCommonBinData(filebytes);
 
         Type ProtoType = Type.GetType(typeName, throwOnError: true);

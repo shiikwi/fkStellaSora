@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package StellaSoraParser.Proto;
+
+message VampireTalent {
+  int32 Id = 1;
+  string Name = 2;
+  int32 DescTag = 3;
+  int32 Param = 4;
+  repeated int32 Prev = 5;
+  bool IsServer = 6;
+  bool IsClient = 7;
+  int32 Effect = 8;
+  string Params = 9;
+  int32 Point = 10;
+  string Icon = 11;
+  int32 EffectId = 12;
+
+}
+
+message table_VampireTalent {
+    repeated VampireTalent List = 1;
+}

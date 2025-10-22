@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataBinConvert
 {
-    public class GameDataController
+    public class GameController
     {
         public Dictionary<object, byte[]> LoadCommonBinData(byte[] data)
         {
