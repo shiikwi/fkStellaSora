@@ -8,10 +8,10 @@ Usage:
 ArchiveParser.exe <path_to_arcx_file>
 ```
 ## DataBinConvert
-Convert specific .bin files (unpacked from data.arcx) into JSON format.
-Note: You need to manually edit the source code to specify the input file and its corresponding class type.
+Convert specific .bin files (unpacked from data.arcx) into JSON format.  
+Note: You need to manually edit the source code to specify the input file and its corresponding class type. See [README](https://github.com/shiikwi/fkStellaSora/blob/main/DataBinConvert/README.md)
 ## WwiseConvert
-Convert Wwise .wem and .bnk audio files to .wav format.
+Convert Wwise .wem and .bnk audio files to .wav format.  
 Usage:
 ```bash
 WwiseConvertBacth.py <wem/bnk> <Path of Folder contains bnk or wem files>
